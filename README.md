@@ -1,4 +1,4 @@
-## Medical image  caption 
+## Medical image  caption generation with VGG160-LSTM and Vision Tranfromare-GPT2
 This dataset includes around 530 images along with 5 different captions written by different people for each image.
 The images are all contained together while caption text file has captions along with the image number appended to it. The zip file is approximately over 1 GB in size.
 ![image](https://github.com/user-attachments/assets/a472763a-3b18-4acf-876e-fbfa30a437df)
@@ -12,7 +12,7 @@ correctly and we are able to see them together.
 Link the text and image data(model fusion=VGG16-LSTM)
 In this dataset, a single image has 2-10 captions. I will only use one caption out of 5 for simplicity.
 Each row of the dtexts and dimages contain the same info. Remove captions (or images) that do not have corresponding images (or captions).
-![image](https://github.com/user-attachments/assets/f41639c8-fe6e-48d2-b67b-f610f781fd3b)
+![image](https://github.com/user-attachments/assets/e0288917-37e9-42d7-b04a-4d665c50faa9)
 
 
 These generated captions are compared to the actual captions from the dataset and evaluated using BLEU scores as the evaluation metrics. 
