@@ -1,4 +1,9 @@
 ## Medical image  caption generation with VGG160-LSTM and Vission transformer-GPT2.
+## Use cases
+- Some detailed usecases would be like an visually impaired person taking a picture from his phone and then the caption generator will turn the caption to speech for him to understand.
+- Advertising industry trying the generate captions automatically without the need to make them seperately during production and sales.
+- Doctors can use this technology to find tumors or some defects in the images or used by people for understanding geospatial images where they can find out more details about the terrain.
+
 This dataset includes around 530 images along with 5 different captions written by different people for each image.
 The images are all contained together while caption text file has captions along with the image number appended to it. The zip file is approximately over 1 GB in size.
 ![image](https://github.com/user-attachments/assets/a472763a-3b18-4acf-876e-fbfa30a437df)
