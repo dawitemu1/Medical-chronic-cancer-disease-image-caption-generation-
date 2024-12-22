@@ -9,6 +9,8 @@ When the VGG-16 model finishes extracting features from all the images from the 
 to see if the VGG-16 model has extracted the features 
 correctly and we are able to see them together.
 ![image](https://github.com/user-attachments/assets/12bb7074-e62c-46c7-9aff-0976927cdeb1)
+
+
 Link the text and image data(model fusion=VGG16-LSTM)
 In this dataset, a single image has 2-10 captions. I will only use one caption out of 5 for simplicity.
 Each row of the dtexts and dimages contain the same info. Remove captions (or images) that do not have corresponding images (or captions).
@@ -19,4 +21,5 @@ These generated captions are compared to the actual captions from the dataset an
 A score closer to 1 indicates that the predicted and actual captions are very similar. As the scores are calculated for the whole test data, 
 we get a mean value which includes good and not so good captions. Some of the examples can be seen below:
 ![image](https://github.com/user-attachments/assets/43792bbd-4d66-4eed-8550-5ea417d4fabd)
+
 ![image](https://github.com/user-attachments/assets/f8fcc4b7-97b0-40ed-89aa-43e3625cc187)
