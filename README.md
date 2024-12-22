@@ -1,4 +1,4 @@
-## Medical image  caption generation with VGG160-LSTM and Vision Tranfromare-GPT2
+## Medical image  caption generation with VGG160-LSTM and Vission transformer-GPT2
 This dataset includes around 530 images along with 5 different captions written by different people for each image.
 The images are all contained together while caption text file has captions along with the image number appended to it. The zip file is approximately over 1 GB in size.
 ![image](https://github.com/user-attachments/assets/a472763a-3b18-4acf-876e-fbfa30a437df)
