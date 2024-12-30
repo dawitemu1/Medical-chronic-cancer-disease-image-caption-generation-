@@ -6,7 +6,10 @@
 
 This dataset includes around 530 images along with 5 different captions written by different people for each image.
 The images are all contained together while caption text file has captions along with the image number appended to it. The zip file is approximately over 1 GB in size.
-![image](https://github.com/user-attachments/assets/a472763a-3b18-4acf-876e-fbfa30a437df)
+
+
+![image](https://github.com/user-attachments/assets/0c980226-d269-4ee8-b3ad-c4ffdee55029)
+
 
 
 Viewing similar images
