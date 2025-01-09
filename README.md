@@ -27,7 +27,7 @@ Each row of the dtexts and dimages contain the same info. Remove captions (or im
 
 These generated captions are compared to the actual captions from the dataset and evaluated using BLEU scores as the evaluation metrics. 
 A score closer to 1 indicates that the predicted and actual captions are very similar. As the scores are calculated for the whole test data, 
-we get a mean value which includes good and not so good captions. Some of the examples can be seen below:
+we get a mean value which includes good and not so good captions. we give the threshehold values, if BELU> 0.7 what we call it Good capron and else if it BELU<0.3 is bad caption, Some of the examples can be seen below:
 ![image](https://github.com/user-attachments/assets/43792bbd-4d66-4eed-8550-5ea417d4fabd)
 
 ![image](https://github.com/user-attachments/assets/f8fcc4b7-97b0-40ed-89aa-43e3625cc187)
